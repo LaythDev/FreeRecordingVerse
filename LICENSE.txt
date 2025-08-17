@@ -1,0 +1,45 @@
+PROPRIETARY SOFTWARE LICENSE AGREEMENT
+COPYRIGHT & OWNERSHIP
+• Copyright © [2025] [Free-Recording-Verse]. All Rights Reserved.
+• All intellectual property rights, including copyrights, patents, trademarks, and trade secrets remain exclusively with the copyright holder
+• This software constitutes proprietary and confidential information
+
+SCOPE OF LICENSE
+• Limited viewing rights granted solely for educational and reference purposes
+• No ownership rights, licenses, or interests are transferred or granted
+• License is non-exclusive, non-transferable, and revocable at any time
+
+PERMITTED ACTIVITIES
+• View source code for educational learning only
+• Reference code for academic study purposes
+• Examine implementation for educational understanding
+
+STRICTLY PROHIBITED ACTIVITIES
+• Any form of copying, reproduction, or duplication
+• Modification, adaptation, or creation of derivative works
+• Commercial use or monetization in any capacity
+• Distribution, redistribution, sublicensing, or sharing
+• Integration into any projects (commercial or non-commercial)
+• Reverse engineering, decompilation, or disassembly
+• Performance of the software in any environment
+
+TERMINATION CONDITIONS
+• License terminates automatically upon any violation
+• Copyright holder reserves right to terminate without notice
+• Upon termination, all access must cease immediately
+• Survival of terms regarding intellectual property and liability
+
+LEGAL PROTECTIONS
+• Governed by law
+• Violations subject to copyright infringement claims
+• Breach may result in injunctive relief and monetary damages
+• No waiver of rights by copyright holder
+
+DISCLAIMERS & LIMITATIONS
+• Software provided "AS IS" without warranties of any kind
+• No liability for damages arising from use or inability to use
+• Maximum liability limited to zero dollars ($0)
+
+ENFORCEMENT
+• Contact for licensing inquiries
+• By accessing this software, you agree to be bound by these terms
