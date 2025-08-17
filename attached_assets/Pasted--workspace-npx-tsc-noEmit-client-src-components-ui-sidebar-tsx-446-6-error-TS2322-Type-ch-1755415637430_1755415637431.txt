@@ -1,0 +1,36 @@
+~/workspace$ npx tsc --noEmit
+client/src/components/ui/sidebar.tsx:446:6 - error TS2322: Type '{ children?: ReactNode; slot?: string | undefined; style?: CSSProperties | undefined; title?: string | undefined; key?: Key | null | undefined; defaultChecked?: boolean | undefined; ... 260 more ...; className: string; }' is not assignable to type 'SlotProps'.
+  Types of property 'onBeforeInput' are incompatible.
+    Type 'FormEventHandler<HTMLDivElement> | undefined' is not assignable to type 'InputEventHandler<HTMLElement> | undefined'.
+      Type 'FormEventHandler<HTMLDivElement>' is not assignable to type 'InputEventHandler<HTMLElement>'.
+        Types of parameters 'event' and 'event' are incompatible.
+          Type 'InputEvent<HTMLElement>' is not assignable to type 'FormEvent<HTMLDivElement>'.
+            Types of property 'currentTarget' are incompatible.
+              Type 'EventTarget & HTMLElement' is not assignable to type 'EventTarget & HTMLDivElement'.
+                Property 'align' is missing in type 'EventTarget & HTMLElement' but required in type 'HTMLDivElement'.
+
+446     <Comp
+         ~~~~
+
+  node_modules/typescript/lib/lib.dom.d.ts:10000:5
+    10000     align: string;
+              ~~~~~
+    'align' is declared here.
+
+client/src/components/ui/sidebar.tsx:467:6 - error TS2322: Type '{ value?: string | number | readonly string[] | undefined; children?: ReactNode; form?: string | undefined; slot?: string | undefined; style?: CSSProperties | undefined; ... 271 more ...; className: string; }' is not assignable to type 'SlotProps'.
+  Types of property 'onBeforeInput' are incompatible.
+    Type 'FormEventHandler<HTMLButtonElement> | undefined' is not assignable to type 'InputEventHandler<HTMLElement> | undefined'.
+      Type 'FormEventHandler<HTMLButtonElement>' is not assignable to type 'InputEventHandler<HTMLElement>'.
+        Types of parameters 'event' and 'event' are incompatible.
+          Type 'InputEvent<HTMLElement>' is not assignable to type 'FormEvent<HTMLButtonElement>'.
+            Types of property 'currentTarget' are incompatible.
+              Type 'EventTarget & HTMLElement' is not assignable to type 'EventTarget & HTMLButtonElement'.
+                Type 'EventTarget & HTMLElement' is missing the following properties from type 'HTMLButtonElement': disabled, form, formAction, formEnctype, and 15 more.
+
+467     <Comp
+         ~~~~
+
+
+Found 2 errors in the same file, starting at: client/src/components/ui/sidebar.tsx:446
+
+~/workspace$ 

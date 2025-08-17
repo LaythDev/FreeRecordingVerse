@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "public": true,
+  "cleanUrls": true,
+  "github": {
+    "enabled": false
+  },
+  "builds": [
+    {
+      "src": "client/**",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/client/$1"
+    }
+  ]
+}
